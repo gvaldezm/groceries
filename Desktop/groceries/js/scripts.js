@@ -15,12 +15,13 @@ $(function() {
     var arrayUpper = array1.map(function(list){
       return list.toUpperCase();
     });
-    var arrayStr = arrayUpper.map(function(listStr){
-      return listStr.toString();
-    });
-    var arraySort = arrayStr.map(function(listSort){
-      return listSort.sort();
-    });
+    // var arrayStr = arrayUpper.map(function(listStr){
+    //   return listStr.toString();
+    // });
+    // var arraySort = arrayUpper.map(function(listSort){
+    //   return listSort.sort();
+    // });
+    var arraySort = arrayUpper.sort();
     alert(arraySort);
     //alert(arraySort);
     event.preventDefault();
